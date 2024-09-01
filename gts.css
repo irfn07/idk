@@ -1,0 +1,39 @@
+body{
+    font: 16px/28px arial,sans-serif,serif;
+    background-color: bisque;
+    color: #333;
+}
+
+.var {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(225, 219, 168);
+}
+.pala {
+    padding: 20px;
+    
+}
+.pala .title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.pala ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+.pala a {
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+.pala a:hover{
+    color: salmon;
+}
+.hero {
+    height: 250px;
+    background-image: url(img/grow.jpg);
+   background-size: cover;
+}
