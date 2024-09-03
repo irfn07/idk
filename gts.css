@@ -59,14 +59,16 @@ body{
     font-size: 15px;
 }
 .bwh {
-    background-color: #333;
+    background-color: grey;
     padding: 20px;
+    border-top: 5px solid darkgray;
 }
-.lgo {
+.bwh .lgo {
     text-align: center;
 }
 .bwh .hh {
     text-align: center;
     font-size: 15px;
-    color: aliceblue;
+    color: gr;
+    font-weight: bold;
 }
