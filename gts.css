@@ -1,13 +1,13 @@
 body{
     font: 16px/28px arial,sans-serif,serif;
-    background-color: bisque;
+    background-color: rgb(196, 197, 194);
     color: #333;
 }
 
 .var {
     width: 800px;
     margin: auto;
-    background-color: rgb(225, 219, 168);
+    background-color: rgb(190, 190, 188);
 }
 .pala {
     padding: 20px;
@@ -33,7 +33,40 @@ body{
     color: salmon;
 }
 .hero {
-    height: 250px;
-    background-image: url(img/grow.jpg);
+    height: 280px;
+    background-image: url(grow.jpg);
    background-size: cover;
+   background-position: 0 -140px;
+   border-bottom: 7px solid lightskyblue;
+   border-top: 7px solid salmon;
+}
+.content {
+    padding: 20px;
+}
+.content h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.content .writer {
+    font-size: 11px;
+    margin-top: -5px;
+}
+.content .writer a{
+    text-decoration: none;
+}
+.content p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.bwh {
+    background-color: #333;
+    padding: 20px;
+}
+.lgo {
+    text-align: center;
+}
+.bwh .hh {
+    text-align: center;
+    font-size: 15px;
+    color: aliceblue;
 }
